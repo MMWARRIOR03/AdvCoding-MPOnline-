@@ -1,0 +1,19 @@
+p::first-letter {
+    font-size: 36px;
+    color: red;
+    font-weight: bold;
+}
+p::first-line {
+    color: blue;
+    font-style: italic;
+}
+p::before {
+    content: "Note: ";
+    color: green;
+    font-weight: bold;
+}
+p::after {
+    content: " Thank You!";
+    color: purple;
+    font-weight: bold;
+}
