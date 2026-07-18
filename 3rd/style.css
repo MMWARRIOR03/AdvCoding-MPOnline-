@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+    font-family: Verdana;
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+p {
+    color: brown;
+    font-size: 18px;
+}
+button {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}

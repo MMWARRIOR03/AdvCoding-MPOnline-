@@ -1,0 +1,48 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: Arial;
+    cursor: pointer; 
+}
+h1 {
+    color: navy;
+    font-family: Georgia;
+    font-style: italic;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    color: darkgreen;
+    text-align: justify;
+}
+.box {
+    background-image: url("boxbg.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid black;
+}
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.layer {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    width: 250px;
+    height: 100px;
+    background-color: rgba(255,0,0,0.7);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    z-index: 10;
+}
+body {
+    cursor: url("cursor.cur"), auto;
+}
