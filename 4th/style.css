@@ -16,7 +16,7 @@ p {
     text-align: justify;
 }
 .box {
-    background-image: url("boxbg.jpg");
+    background-image: url("image.png");
     background-size: cover;
     padding: 20px;
     margin: 30px;
@@ -37,12 +37,9 @@ a:hover {
     left: 150px;
     width: 250px;
     height: 100px;
-    background-color: rgba(255,0,0,0.7);
-    color: white;
+    background-color: greenyellow;
+    color: black;
     text-align: center;
     line-height: 100px;
     z-index: 10;
-}
-body {
-    cursor: url("cursor.cur"), auto;
 }
